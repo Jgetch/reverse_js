@@ -1,0 +1,46 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: lightblue;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 10%;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #55555566;
+  box-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+button:active {
+  background-color: #ffffff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
