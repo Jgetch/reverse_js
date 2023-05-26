@@ -1,23 +1,23 @@
-let paragraph = document.getElementById("para");
-let bttn = document.getElementById("button");
-let emote = document.getElementById("face");
+let paraElement = document.getElementById("para");
+let buttonElement = document.getElementById("button");
+let emoji = document.getElementById("face");
 
 function clicky() {
-  if (paragraph.textContent === "REVERSE ME") {
-    paragraph.textContent = "ƎM ƎƧЯƎVƎЯ";
-    emote.textContent = "o_O";
+  if (paraElement.textContent === "REVERSE ME") {
+    paraElement.textContent = "ƎM ƎƧЯƎVƎЯ";
+    emoji.textContent = "o_O";
   } else {
-    paragraph.textContent = "REVERSE ME";
-    emote.textContent = "O_o";
+    paraElement.textContent = "REVERSE ME";
+    emoji.textContent = "O_o";
   }
   button();
 }
 
 function button() {
-  if (paragraph.textContent === "REVERSE ME") {
-    bttn.textContent = "Don't do that again! 😠 ";
+  if (paraElement.textContent === "REVERSE ME") {
+    buttonElement.textContent = "Don't do that again! 😠 ";
   } else {
-    bttn.textContent = "help.. 😟";
+    buttonElement.textContent = "help.. 😟";
   }
   console.log("test");
 }
